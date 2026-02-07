@@ -1,0 +1,32 @@
+{
+  "name": "inflight-stable",
+  "version": "1.0.0",
+  "description": "inflight, but not deprecated, and actively maintained.",
+  "keywords": [
+    "inflight"
+  ],
+  "homepage": "https://github.com/xsfj/inflight-stable#readme",
+  "bugs": {
+    "url": "https://github.com/xsfj/inflight-stable/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xsfj/inflight-stable.git"
+  },
+  "license": "MIT",
+  "author": "XSFJ",
+  "type": "commonjs",
+  "main": "inflight.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5"
+  },
+  "dependencies": {
+    "blank-object": "^1.0.2",
+    "once": "^1.4.0",
+    "uncurried-intrinsics": "^1.0.3",
+    "wrappy": "^1.0.2"
+  }
+}
