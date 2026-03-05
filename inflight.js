@@ -1,10 +1,6 @@
 var wrappy = require('wrappy')
-var BlankObject = require('blank-object')
-var reqs = new BlankObject
+var reqs = Object.create(null)
 var once = require('once')
-var callBound = require('uncurried-intrinsics')
-
-var slice = callBound("Array.prototype.slice")
 
 module.exports = wrappy(inflight)
 
@@ -47,4 +43,12 @@ function makeres (key) {
       }
     }
   })
+}
+
+function slice (args) {
+  var length = args.length
+  var array = []
+
+  for (var i = 0; i < length; i++) array[i] = args[i]
+  return array
 }

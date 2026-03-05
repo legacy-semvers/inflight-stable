@@ -1,6 +1,6 @@
 {
   "name": "inflight-stable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "inflight, but not deprecated, and actively maintained.",
   "keywords": [
     "inflight"
@@ -24,9 +24,7 @@
     "mocha": "^11.7.5"
   },
   "dependencies": {
-    "blank-object": "^1.0.2",
     "once": "^1.4.0",
-    "uncurried-intrinsics": "^1.0.3",
     "wrappy": "^1.0.2"
   }
 }
