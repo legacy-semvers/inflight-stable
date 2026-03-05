@@ -1,20 +1,20 @@
 {
   "name": "inflight-stable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "inflight, but not deprecated, and actively maintained.",
   "keywords": [
     "inflight"
   ],
-  "homepage": "https://github.com/xsfj/inflight-stable#readme",
+  "homepage": "https://github.com/legacy-semvers/inflight-stable#readme",
   "bugs": {
-    "url": "https://github.com/xsfj/inflight-stable/issues"
+    "url": "https://github.com/legacy-semvers/inflight-stable/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xsfj/inflight-stable.git"
+    "url": "git+https://github.com/legacy-semvers/inflight-stable.git"
   },
   "license": "MIT",
-  "author": "XSFJ",
+  "author": "legacy-semvers",
   "type": "commonjs",
   "main": "inflight.js",
   "scripts": {

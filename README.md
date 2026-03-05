@@ -47,7 +47,7 @@ var inflight = require('inflight-stable')
 ```
 
 ## Why?
-isaacs deprecated `inflight` because of an apparent memory leak, though it's only really a memory leak if the user never calls the callback, so there's no bug in the code. He suggests using `lru-cache`, but that module isn't as backwards-compatible. So this is a maintained version of `inflight` that isn't completely deprecated. This version has a few slight design changes from the original, but works the same.
+isaacs deprecated `inflight` because of an apparent memory leak, though it's only really a memory leak if the user never calls the callback, so there's no bug in the code. He suggests using `lru-cache`, but that module isn't as backwards-compatible. So this is a maintained version of `inflight` that isn't completely deprecated.
 
 ## License
 
